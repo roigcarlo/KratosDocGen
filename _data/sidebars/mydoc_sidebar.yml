@@ -28,13 +28,14 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: Processes
-      output: web, pdf
-      folderitems:
+      subfolders:
+      - title: Processes
+        output: web
+        subfolderitems:
 
-      - title: FluidDynamics
-        url: /processes/fluidDynamic.html
-        output: web, pdf
+        - title: FluidDynamics
+          url: /processes/fluid_dynamics.html
+          output: web, pdf
 
     - title: Introduction
       url: /mydoc_introduction.html
