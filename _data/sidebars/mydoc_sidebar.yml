@@ -34,7 +34,7 @@ entries:
         subfolderitems:
 
         - title: FluidDynamics
-          url: /processes/fluid_dynamics.html
+          url: fluid_dynamics.html
           output: web, pdf
 
     - title: Introduction
